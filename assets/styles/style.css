@@ -1,0 +1,185 @@
+/* typography */
+html, body {
+    height: 100%;
+    margin: 0;
+    font-family: sans-serif;
+    font-size: 18px;
+    color: white;
+    scroll-behavior: smooth;
+}
+
+h1 {
+    font-size: 48px;
+    font-family: 'Cantarell', 'Times New Roman', Times, serif;
+    margin-bottom: 0px;
+}
+
+h2, p {
+    text-align: left;
+}
+
+a {
+    text-decoration: none;
+}
+
+.font {
+    font-family: 'Cantarell', 'Times New Roman', Times, serif;
+}
+
+.center {
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+section {
+    height: 100%; 
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/* main cta section */
+section.main-cta {
+    background-image: url("../images/main-bg.jpg");
+}
+
+/* navbar */
+nav {
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.nav {
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 12px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+/* main section */
+table.one {
+    height: 375px;
+    width: 375px;
+    border-radius: 100%;
+    position: sticky;
+    background-color: rgba(4, 152, 183, 0.25);
+}
+
+table.two {
+    height: 315px;
+    width: 315px;
+    border-radius: 100%;
+    background-color: #0498b7;
+}
+
+table.three {
+    height: 300px;
+    width: 300px;
+    border-radius: 100%;
+}
+
+table.main {
+    height: 400px;
+    width: 400px;
+    margin-top: -200px;
+}
+
+table.contact {
+    height: 50px;
+    width: 75%;
+    margin-top: 30px;
+}
+
+.ava {
+    background-image: url(../images/avatar.png);
+    border-radius: 100%;
+    background-size: 100%;
+    background-position: center;
+}
+
+#col {
+    background: #05313a;
+    border-radius: 10px;
+}
+
+.dot {
+    height: 40px;
+    width: 40px;
+    background-size: 100%;
+    border-radius: 50%;
+    display: inline-block;
+}
+
+/* about section */
+section.about {
+    background-color: #040d10;
+    font-family: cantarell, 'Times New Roman', Times, serif;
+}
+
+table.logo {
+    height: 60px;
+    width: 60px;
+    margin-bottom: -25px;
+    border-radius: 5px;
+    background-color: #041419;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+table.about {
+    height: 60%;
+    width: 75%;
+}
+
+table.interest {
+    height: 105%;
+    width: 90%;
+    padding: 0;
+    border-spacing: 25px;
+    margin-top: -5px;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.col {
+    height: 50%;
+    width: 25%;
+    text-transform: uppercase;
+    background-color: #041419;
+    border-radius: 10px;
+}
+
+/* skills section */
+section.skills {
+    background-color: #041013;
+    font-family: cantarell, 'Times New Roman', Times, serif;
+}
+
+table.skills {
+    height: 50%;
+    width: 75%;
+}
+
+table.col {
+    border-spacing: 0;
+    height: 3px;
+    width: 80%;
+    margin-top: -5px;
+}
+
+p.skills {
+    font-size: 16px;
+    margin-top: 0;
+}
+
+p.footer {
+    margin-bottom: 7.5px;
+    font-size: 19px;
+}
+
+div.footer {
+    border-top: 1px solid white;
+    padding-top: 10px;
+    margin-bottom: 0px;
+    width: 80%;
+}
