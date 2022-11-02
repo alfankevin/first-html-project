@@ -1,2 +1,2 @@
-## https://alfankevin.github.io/first-html-project/
+## https://alfankevin.github.io/html-first-project/
 ![Screenshot](screenshot.png)
