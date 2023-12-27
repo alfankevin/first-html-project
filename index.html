@@ -41,11 +41,15 @@
       }
       .navbar-brand {
         margin-right: 160px;
+        padding: 0 15px 0 15px;
         font-size: 22px;
         font-weight: 700;
       }
+      .navbar-nav {
+        padding-left: 5px;
+      }
       .nav-item {
-        margin-right: 50px;
+        margin-right: 40px;
       }
       .nav-link {
         font-size: 12px;
@@ -121,7 +125,7 @@
         letter-spacing: 1px;
       }
       .profile-detail__user h5 {
-        font-size: 18px;
+        font-size: 17px;
         text-align: center;
       }
       .profile-detail__social {
@@ -177,6 +181,62 @@
       .twitter:hover i {
         color: #1da1f2;
       }
+      .project {
+        position: relative;
+        padding: 75px 0;
+        background-color: #040d10;
+      }
+      .project .container {
+        max-width: 1440px;
+      }
+      .project-card {
+        margin-bottom: 75px;
+      }
+      .project-card iframe {
+        border-radius: 10px;
+      }
+      .project-title {
+        font-size: 20px;
+        margin-bottom: 25px;
+        text-align: center;
+      }
+      .project-detail {
+        margin-top: 5px;
+        display: none;
+        justify-content: center;
+      }
+      .project-detail span {
+        font-size: 14px;
+        cursor: pointer;
+        color: rgba(255, 255, 255, 0.8);
+        transition: all, 0.2s;
+      }
+      .project-detail span:hover {
+        color: #ffffff;
+      }
+      .row > * {
+        padding: 0 50px 0 50px;
+      }
+      footer {
+        position: absolute;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        height: 50px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background-color: #000000;
+      }
+      footer span {
+        color: rgba(255, 255, 255, 0.8);
+        font-size: 14px;
+      }
+      @media screen and (max-width: 600px) {
+        .navbar-contact{
+          display: none;
+        } 
+      }
     </style>
 </head>
 <body>
@@ -220,21 +280,83 @@
         </div>
         <div class="profile-detail">
           <div class="profile-detail__user">
-            <h2>Alfan Farchi</h2>
+            <h2 style="margin-left: 2.5px;">Alfan Farchi</h2>
             <h5>Mahasiswa Politeknik Negeri Malang</h5>
           </div>
           <div class="profile-detail__social">
-            <a href="#" class="linkedin"><i class="fa fa-linkedin"></i></a>
-            <a href="#" class="instagram"><i class="fa fa-instagram"></i></a>
+            <a href="https://www.linkedin.com/in/alfan-farchi-020518221" target="_blank" class="linkedin"><i class="fa fa-linkedin"></i></a>
+            <a href="https://www.instagram.com/alfarchi_/" target="_blank" class="instagram"><i class="fa fa-instagram"></i></a>
             <a href="#" class="facebook"><i class="fa fa-facebook"></i></a>
-            <a href="#" class="whatsapp"><i class="fa fa-whatsapp"></i></a>
+            <a href="https://wa.me/6281216774586" target="_blank" class="whatsapp"><i class="fa fa-whatsapp"></i></a>
             <a href="#" class="twitter"><i class="fa fa-twitter"></i></a>
           </div>
         </div>
       </div>
     </div>
   </section>
-  <section class="main">
+  <section class="project">
+    <div class="container">
+      <div class="row">
+        <h2 style="display: flex; justify-content: center; margin-bottom: 75px; font-size: 40px; font-weight: bold;">Projects</h2>
+        <div class="col-sm-12 col-md-6 col-lg-4">
+          <div class="project-card">
+            <h3 class="project-title">Streaming Platform</h3>
+            <iframe width="100%" height="250px" src="https://www.youtube.com/embed/2nsT9uQPIrk" allowfullscreen></iframe>
+            <div class="project-detail">
+              <span>click for details<span class="text-danger">*</span></span>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-12 col-md-6 col-lg-4">
+          <div class="project-card">
+            <h3 class="project-title">Tanjungrejo's Resident Data</h3>
+            <iframe width="100%" height="250px" src="https://www.youtube.com/embed/2nsT9uQPIrk" allowfullscreen></iframe>
+            <div class="project-detail">
+              <span>click for details<span class="text-danger">*</span></span>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-12 col-md-6 col-lg-4">
+          <div class="project-card">
+            <h3 class="project-title">Decision Support System</h3>
+            <iframe width="100%" height="250px" src="https://www.youtube.com/embed/2nsT9uQPIrk" allowfullscreen></iframe>
+            <div class="project-detail">
+              <span>click for details<span class="text-danger">*</span></span>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-12 col-md-6 col-lg-4">
+          <div class="project-card">
+            <h3 class="project-title">Mobile-based KTM Scanner</h3>
+            <iframe width="100%" height="250px" src="https://www.youtube.com/embed/2nsT9uQPIrk" allowfullscreen></iframe>
+            <div class="project-detail">
+              <span>click for details<span class="text-danger">*</span></span>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-12 col-md-6 col-lg-4">
+          <div class="project-card">
+            <h3 class="project-title">Web-based Portfolio</h3>
+            <iframe width="100%" height="250px" src="https://www.youtube.com/embed/2nsT9uQPIrk" allowfullscreen></iframe>
+            <div class="project-detail">
+              <span>click for details<span class="text-danger">*</span></span>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-12 col-md-6 col-lg-4">
+          <div class="project-card">
+            <h3 class="project-title">Teacher's Salary Program</h3>
+            <iframe width="100%" height="250px" src="https://youtube.com/embed/CdW32W2jMsQ?si=EjEi5vNnZa02YOmU" allowfullscreen></iframe>
+            <div class="project-detail">
+              <span>click for details<span class="text-danger">*</span></span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <footer>
+      <span>&reg; Designed by Farchi. All Rights Reserved</span>
+    </footer>
   </section>
 </body>
 </html>
