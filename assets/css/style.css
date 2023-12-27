@@ -41,7 +41,7 @@ section {
 
 /* main cta section */
 section.main-cta {
-    background-image: url("../images/main-bg.jpg");
+    background-image: url("../img/main-bg.jpg");
 }
 
 /* navbar */
@@ -91,7 +91,7 @@ table.contact {
 }
 
 .ava {
-    background-image: url(../images/avatar.png);
+    background-image: url(../img/avatar.png);
     border-radius: 100%;
     background-size: 100%;
     background-position: center;
